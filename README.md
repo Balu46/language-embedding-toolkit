@@ -22,7 +22,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-### Using pip (if published to PyPI)
+### Using pip (if published to PyPI) (curently not done)
 
 ```bash
 pip install language-embedding-toolkit

@@ -13,7 +13,7 @@ import sys
 # Add parent directory to path to import library
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from library.embedding_service.compare_words import WordComparator
+from embedding_service.compare_words import WordComparator
 
 
 def main():
@@ -28,9 +28,9 @@ def main():
             languages=['en', 'pl'],  # English and Polish
             data_dir='../data'  # Adjust path as needed
         )
-        print("✅ Models loaded successfully!")
+        print("Models loaded successfully!")
     except Exception as e:
-        print(f"❌ Error loading models: {e}")
+        print(f"Error loading models: {e}")
         print("\nNote: You need to train models first using run_train_data_pipeline.py")
         return
     
@@ -60,7 +60,7 @@ def main():
             print(f"    ❌ Error comparing {word1} and {word2}: {e}")
     
     # Example 3: Get combined embedding for a single word
-    print("\n🔢 Example 3: Getting word embedding...")
+    print("\nExample 3: Getting word embedding...")
     word = "hello"
     phonemes = ['h', 'ə', 'l', 'oʊ']  # IPA representation
     
@@ -71,7 +71,7 @@ def main():
     print(f"  First 5 values: {embedding[:5]}")
     
     print("\n" + "=" * 60)
-    print("✅ Example completed successfully!")
+    print("Example completed successfully!")
     print("=" * 60)
 
 

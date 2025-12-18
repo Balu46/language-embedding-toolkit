@@ -13,8 +13,8 @@ import sys
 # Add parent directory to path to import library
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from library.embedding_service.run_train_data_pipeline import main as train_main
-from library.embedding_service.embeding import hyperparameters as hp
+from embedding_service.run_train_data_pipeline import main as train_main
+from embedding_service.embeding import hyperparameters as hp
 
 
 def main():

@@ -32,7 +32,6 @@ build/
 *.pth
 *.h5
 *.hdf5
-data/
 models/
 
 # Logs
