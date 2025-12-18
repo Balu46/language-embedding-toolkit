@@ -167,9 +167,9 @@ If you use this library in your research, please cite:
 ```bibtex
 @software{language_embedding_toolkit,
   title={Language Embedding Toolkit},
-  author={Your Name},
+  author={Jan Zakroczymski},
   year={2025},
-  url={https://github.com/yourusername/language-embedding-toolkit}
+  url={https://github.com/Balu46/language-embedding-toolkit}
 }
 ```
 
