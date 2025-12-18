@@ -9,7 +9,7 @@ import os
 import sys
 import logging
 
-from library.logger.logging_config import setup_logger
+from logger.logging_config import setup_logger
 
 # Set up logger for this module
 logger = setup_logger(__name__, 'cbow.log', level=logging.INFO)

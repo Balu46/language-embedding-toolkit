@@ -9,10 +9,10 @@ import torch
 import logging
 
 
-from library.logger.logging_config import setup_logger
-from library.embedding_service.data.data_pipeline import run_data_pipeline
-from library.embedding_service.embeding.train_cbow import train_model
-from library.embedding_service.embeding import hyperparameters as hp
+from logger.logging_config import setup_logger
+from embedding_service.data.data_pipeline import run_data_pipeline
+from embedding_service.embeding.train_cbow import train_model
+from embedding_service.embeding import hyperparameters as hp
 
 
 # Set up logger

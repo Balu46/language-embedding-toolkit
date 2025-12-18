@@ -9,14 +9,14 @@ import torch
 import random
 import numpy as np
 
-from library.logger.logging_config import setup_logger
+from logger.logging_config import setup_logger
 logger = setup_logger(__name__, "train_cbow.log")
 from datetime import datetime
 
 
-from library.embedding_service.embeding.cbow import CBOWModel, CBOWDataset, train_cbow, build_vocab, evaluate_model
+from embedding_service.embeding.cbow import CBOWModel, CBOWDataset, train_cbow, build_vocab, evaluate_model
 
-from library.embedding_service.embeding import hyperparameters as hp
+from embedding_service.embeding import hyperparameters as hp
 
 def train_model(languages=None, data_type=None, batch_size=None):
     # Use provided arguments or fallback to hyperparameters

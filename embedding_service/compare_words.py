@@ -8,9 +8,9 @@ import numpy as np
 from typing import Tuple, List, Dict
 
 
-from library.logger.logging_config import setup_logger
-from library.embedding_service.embeding.cbow import CBOWModel
-from library.embedding_service.data.data_pipeline import run_data_pipeline
+from logger.logging_config import setup_logger
+from embedding_service.embeding.cbow import CBOWModel
+from embedding_service.data.data_pipeline import run_data_pipeline
 
 # Set up logger
 logger = setup_logger(__name__, "word_comparison.log")
