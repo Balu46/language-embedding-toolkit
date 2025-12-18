@@ -181,4 +181,4 @@ If you use this library in your research, please cite:
 
 ## Contact
 
-For questions or feedback, please open an issue on GitHub or contact [your.email@example.com](mailto:jan.zakroczymski@gmail.com).
+For questions or feedback, please open an issue on GitHub or contact [jan.zakroczymski@gmail.com](mailto:jan.zakroczymski@gmail.com).
